@@ -515,5 +515,6 @@ urls_to_download = [
 
 for url in urls_to_download:
     download(url)
+    break
 
 print("[HYPERSIM: DATASET_DOWNLOAD_IMAGES] Finished.")
